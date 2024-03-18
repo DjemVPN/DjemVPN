@@ -33,3 +33,6 @@ BuyJapan.onclick = function(){
 BuyMoscow.onclick = function(){
     window.location.href = "https://vpnkeys.ru/getkey/djem-moscow"
 }
+BuyUkraine.onclick = function(){
+    window.location.href = "https://vpnkeys.ru/getkey/DjemUkraine"
+}
