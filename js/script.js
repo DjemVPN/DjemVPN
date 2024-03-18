@@ -12,7 +12,7 @@ const BuyTurkey = document.querySelector('.BuyTurkey')
 const BuyJapan = document.querySelector('.BuyJapan')
 const BuyMoscow = document.querySelector('.BuyMoscow')
 const BuyUkraine = document.querySelector('.BuyUkraine')
-
+const BuyHongkong = document.querySelector('.BuyHongkong')
 
 
 CallToHelp.onclick = function(){
@@ -35,4 +35,7 @@ BuyMoscow.onclick = function(){
 }
 BuyUkraine.onclick = function(){
     window.location.href = "https://vpnkeys.ru/getkey/DjemUkraine"
+}
+BuyHongkong.onclick = function(){
+    window.location.href = "https://vpnkeys.ru/getkey/DjemHongKong"
 }
