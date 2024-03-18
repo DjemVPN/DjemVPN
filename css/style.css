@@ -332,6 +332,7 @@ header .container{
     flex-direction: row;
     /* justify-content: space-evenly; */
     gap: 30px;
+    flex-wrap: wrap;
 }
 .section-servers__card{
     max-height: 550px;
