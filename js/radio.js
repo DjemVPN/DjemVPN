@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#jquery_jplayer_1").jPlayer({
         ready: function () {
             $(this).jPlayer("setMedia", {
-                mp3: "https://radiorecord.hostingradio.ru/rr_main96.aacp"
+                mp3: "https://radiorecord.hostingradioSTOP.ru/rr_main96.aacp"
                 // aac: "https://radiorecord.hostingradio.ru/rr_main96.aac"
             });
             $(this).jPlayer("volume", 0.1); // установка уровня громкости на 10%
