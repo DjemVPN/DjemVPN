@@ -1,0 +1,28 @@
+body{
+    
+}
+.section-tariffs{
+    display: flex;
+    
+    gap: 5px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.luxe{
+    background-image: url(../assets/img/rich-man-transformed.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-position-x: 170px;
+    /* background-position-y: 20px; */
+    background-size: 250px 350px;
+}
+@media screen and (max-width: 768px){
+    .section-tariffs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}   

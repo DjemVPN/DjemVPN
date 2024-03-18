@@ -1,0 +1,39 @@
+#jp_container_1{
+    /* max-width:1330px; */
+    margin: 0 auto;
+    max-width: 450px;
+
+}
+    .jp-progress-container, .jp-seek-bar {
+    overflow: hidden !important;
+  }
+    .jp-current-time, .jp-duration {
+    display: none !important;
+  }
+    .jp-video, .jp-type-playlist, .jp-jplayer {
+    background: transparent !important;
+  }
+    .jp-volume-bar{
+    margin:0px 10px;
+    transform: scale(1.8);
+    background-color: gray;
+    background-image: none;
+  }
+  .jp-progress{
+    display: none;
+  }
+  .jp-audio , .jp-controls{
+    width:200px;
+  }
+  .jp-volume-controls{
+    left:100px;
+    top: 20px;
+  }
+  .jp-audio .jp-controls{
+    padding: 10px 0px;
+    /* margin-top: 50px; */
+  }
+  .jp-audio .jp-interface{
+    height: 60px;
+    width: 220px;
+  }
